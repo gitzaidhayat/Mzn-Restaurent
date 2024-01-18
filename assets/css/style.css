@@ -543,14 +543,14 @@ body.nav-active { overflow: hidden; }
   left: 0;
   width: 100%;
   background-color: transparent;
-  padding-block: 40px;
+  padding-block: 2px;
   z-index: 4;
   border-block-end: 1px solid transparent;
   transition: var(--transition-1);
 }
 
 .header.active {
-  padding-block: 20px;
+  padding-block: 0px;
   background-color: var(--eerie-black-4);
   border-color: var(--black-alpha-15);
 }
